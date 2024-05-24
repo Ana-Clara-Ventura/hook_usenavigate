@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7c88f; /* Cor de fundo atualizada */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto; /* Aumentei a margem superior para dar mais espaço */
+    padding: 20px;
+    background-color: #fff; /* Adicionei um fundo branco ao conteúdo para destacá-lo */
+    border-radius: 10px; /* Arredondei as bordas do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra suave */
+  }
+  
+  h1 {
+    color: #ff5722; /* Cor do texto atualizada */
+    text-align: center;
+  }
+  
+  p {
+    color: #666;
+    text-align: justify;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px; /* Aumentei o preenchimento do botão */
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Aumentei o tamanho da fonte do botão */
+    transition: background-color 0.3s; /* Adicionei uma transição suave */
+  }
+  
+  button:hover {
+    background-color: #e64a19; /* Cor de destaque do botão ao passar o mouse */
+  }
+  
